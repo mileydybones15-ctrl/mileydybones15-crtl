@@ -1,0 +1,169 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0f172a;
+    background-color: #f8fafc;
+    overflow-x: hidden;
+}
+
+:root {
+    --primary-color: #bb0404;       
+    --primary-hover: #feffc2;
+    --accent-color: #ebee3a;        
+    --bg-light: #f8fafc;
+    --card-bg: #ffffff;
+    --border-color: #e2e8f0;
+    --text-dark: #0e0909;           
+    --text-muted: #076eff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-dark) !important;
+    font-weight: 700;
+    color: white;
+}
+
+p, label, span, li {
+    color: #bb0404;
+}
+
+.text-primary, .navbar-brand {
+    color: var(--primary-color) !important;
+    font-weight: 800;
+}
+
+.bg-primary-soft {
+    background-color: white !important;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+}
+
+.nav-link {
+    color: #bb0404 !important;
+    font-weight: 500;
+    text-align: right;
+}
+
+.nav-link:hover {
+    color: var(--prsimary-color) !important;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #faffb2 0%, #ffedee 60%, #dad1ff 100%);
+    position: relative;
+    border-bottom: 1px solid var(--border-color);
+    padding: 3rem 0;
+}
+
+.hero-section h1 {
+    color: #bb0404 !important;
+}
+
+.hero-section p {
+    color: #080909 !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, var(--primary-color), #06b6d4);
+    border: none;
+    color: #ffffff !important;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(75, 156, 255, 0.25);
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, var(--primary-hover), #0891b2);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(2, 132, 199, 0.4);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color) !important;
+    border: 2px solid var(--primary-color);
+    background: transparent;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    padding: 0.65rem 1.4rem;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    color: #ffffff !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(2, 132, 199, 0.2);
+}
+
+.card {
+    background-color: var(--card-bg) !important;
+    border: 1px solid var(--border)
+}
+
+.reason-card {
+    background-color: #ffffff !important;
+    border: 1px solid #e2e8f0 !important;
+    border-radius: 1rem !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.reason-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(2, 132, 199, 0.15) !important;
+    border-color: #0284c7 !important;
+}
+
+.link-hover {
+    transition: opacity 0.2s ease, color 0.2s ease;
+}
+
+.link-hover:hover {
+    opacity: 1 !important;
+    color: #38bdf8 !important;
+}
+
+/* Footer estilizado con la paleta cálida de la segunda imagen */
+footer, .footer-section {
+    background: linear-gradient(135deg, #fef9c3 0%, #fff1f2 50%, #fce7f3 100%) !important;
+    border-top: 1px solid #fbcfe8 !important;
+    padding: 3rem 0;
+    color: #1e293b !important;
+}
+
+/* Títulos principales (SENATI, Enlaces Rápidos, Contacto) */
+footer h1, footer h2, footer h3, footer h4, footer h5, footer h6,
+.footer-section h5, .footer-section .h5 {
+    color: #b91c1c !important; /* Rojo granate de la segunda imagen */
+    font-weight: 800 !important;
+}
+
+/* Párrafos, textos de contacto y derechos reservados */
+footer p, footer span, footer li, .footer-section p {
+    color: #1e293b !important; /* Texto oscuro totalmente legible */
+    font-weight: 500;
+}
+
+/* Enlaces de la columna Enlaces Rápidos */
+footer a, .footer-section a {
+    color: #b91c1c !important;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+footer a:hover, .footer-section a:hover {
+    color: #0891b2 !important; /* Azul cian de los botones de la segunda imagen */
+    text-decoration: underline;
+}
+
+/* Línea divisora */
+footer hr {
+    border-color: #f43f5e !important;
+    opacity: 0.3;
+}
